@@ -1,6 +1,6 @@
 import "./globals.css";
 import { Inter } from "next/font/google";
-import First from "@/components/first";
+import First from "@/components/logo";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -16,7 +16,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`${inter.className} absolute bg-[#2c0ac4]`}>
+      <body className={`${inter.className} absolute`}>
           {children}
       </body>
     </html>
