@@ -25,7 +25,7 @@ export default function Logo() {
   return (
     <div className=" fixed flex justify-center items-center h-screen">
       <motion.div
-        className="z-1"
+        className=""
         variants={logoAnimation}
         initial="initial"
         animate="animate"
