@@ -19,7 +19,7 @@ export default function Logo() {
 
   const textVariants = {
     hidden: { opacity: 0, y: 20 },
-    visible: { opacity: 1, y: 0 },
+    visible: { opacity: 10, y: 0 },
   };
 
   return (
@@ -37,7 +37,7 @@ export default function Logo() {
 
       {animationComplete && (
         <motion.div
-          className="fixed  text-center text-5xl uppercase mb-2"
+          className="fixed text-center text-5xl uppercase mb-2"
           variants={textVariants}
           initial="hidden"
           animate="visible"
